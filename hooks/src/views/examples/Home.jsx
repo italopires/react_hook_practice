@@ -4,8 +4,8 @@ import PageTitle from '../../components/layout/PageTitle'
 const Home = props => (
     <div className="Home">
         <PageTitle
-            title="Módulo Hooks"
-            subtitle="Hooks são uma nova adição ao React 16.8." />
+            title="Hooks Practice"
+            subtitle="Hooks are one new adition to React 16.8." />
     </div>
 )
 
