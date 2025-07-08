@@ -7,7 +7,7 @@ export default async function Home() {
   const posts = await postRepository.findAll();
 
   return (
-    <div>
+    <div className='text-slate-900 bg-slate-100 min-h-screen'>
       <header>
         <h1 className='text-6x1 font-bold text-center py-8'>
           This is the Header
@@ -15,7 +15,7 @@ export default async function Home() {
       </header>
 
       <Suspense fallback={<SpinLoader />}>
-        <PostsList></PostsList>
+        <PostsList />
       </Suspense>
 
       <footer>
